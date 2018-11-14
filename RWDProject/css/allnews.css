@@ -1,0 +1,181 @@
+html{
+    font-family: verdana;
+}
+
+.navbar {
+	display: flex;
+    width: 100%;
+    background-color: red;
+    overflow: auto;
+}
+
+.topnav {
+	display: flex;
+	overflow: hidden;
+    width: 100%;
+    background-color: red;
+	height: 50px;
+}
+
+ul {
+    display: inherit;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+logo {
+	padding-left: 50px;
+}
+
+.box {
+    float: left;
+    width: 20%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.search input[type=text] {
+  display: flex;
+  border: none;
+  font-size: 16px;
+  height: 8px;
+  border-radius: 20px;
+  box-shadow:    inset 0 0 5px #000000;
+  box-shadow: inset 0 0 5px #000000;
+  box-shadow:         inset 0 0 5px #000000;
+}
+
+  .search a, .search input[type=text] {
+    display: flex;
+    text-align: left;
+    margin: 0;
+    padding: 14px;
+    margin-top: 6px;
+    margin-right: 3px;
+  }
+	
+  .search input[type=text] {
+    border: 1px solid black;
+  }
+
+li {
+    text-align: center;
+ 
+}
+
+li a, .dropbtn {
+    display: inherit;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.news {
+    display: inline-block;
+}
+
+.news-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.news-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.news-content a:hover {
+    background-color: red;
+    color: white;
+}
+
+.news:hover .news-content {
+    display: block;
+	width: 20%;
+}
+
+li.news {
+    display: inherit;
+}
+
+.reviews-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.reviews-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.reviews-content a:hover {
+    background-color: red;
+    color: white;
+}
+
+.reviews:hover .reviews-content {
+    display: block;
+	width: 20%;
+}
+
+li.reviews {
+    display: inherit;
+}
+
+.videos-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.videos-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    text-align: center;
+	display: block;
+}
+
+.videos-content a:hover {    
+    background-color: red;
+    color: white;
+	
+}
+
+.videos:hover .videos-content {
+    display: block;
+	width: 20%;
+}
+
+li.videos {
+    display: inherit;
+}
