@@ -80,12 +80,8 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover, .dropdown:hover .dr1opbtn {
     background-color: red;
-}
-
-li.news {
-    display: inline-block;
 }
 
 .news-content {
