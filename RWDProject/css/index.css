@@ -346,3 +346,15 @@ background:#333;
 #logintext h1 {
     color: #888888;
 }
+
+#featuredcontainer {
+    margin-left: 50px;
+}
+
+#featuredcontainer h2 {
+    color: red;
+}
+
+#featuredtext h2{
+    color: #333;
+}
