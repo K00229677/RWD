@@ -358,3 +358,22 @@ background:#333;
 #featuredtext h2{
     color: #333;
 }
+
+#streamcontainer {
+    margin-left: 50px;
+}
+
+#streamcontainer h2 {
+    color: red;
+}
+
+#streamtext h2{
+    color: #333;
+}
+
+#ad {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
