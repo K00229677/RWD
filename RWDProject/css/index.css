@@ -177,8 +177,10 @@ li.videos {
 }
 
 .accountbox{
+  display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   background:white;
   width:300px;
@@ -335,4 +337,12 @@ background:#333;
 .subeddel{
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+#logintext {
+    margin-left: 5px;
+}
+
+#logintext h1 {
+    color: #888888;
 }
