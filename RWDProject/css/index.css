@@ -176,16 +176,6 @@ li.videos {
     display: inherit;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #595959;
-    color: white;
-    text-align: center;
-}
-
 .accountbox{
   flex-direction: row;
   justify-content: space-between;
@@ -263,20 +253,24 @@ background:red;
 
 #sedbtn1{
   display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
   background:red;
-  width:15%;
+  width:23%;
   padding-top:5px;
   padding-bottom:5px;
   color:white;
   border-radius:4px;
-  border: red 2px solid;
+  border: #888888 1px solid;
   margin-top:20px;
   margin-bottom:20px;
   margin-right: 75px;
+  margin-left: 75px;
   float: left;
   font-weight:800;
   font-size:0.8em;
-  text-align: center;
+  box-shadow: 3px 3px 15px #888888;
+  justify-content: center;
 }
 
 #sedbtn1:hover{ 
@@ -286,20 +280,24 @@ background:#333;
 
 #sedbtn2{
   display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
   background:red;
-  width:15%;
+  width: 23%;
   padding-top:5px;
   padding-bottom:5px;
   color:white;
   border-radius:4px;
-  border: red 2px solid;
+  border: #888888 1px solid;
   margin-top:20px;
   margin-bottom:20px;
-  margin-right: 75px; 
+  margin-right: 75px;
+  margin-left: 75px;
   float: left;
   font-weight:800;
   font-size:0.8em;
-  text-align: center;
+  box-shadow: 3px 3px 15px #888888;
+  justify-content: center;
 }
 
 #sedbtn2:hover{ 
@@ -309,20 +307,24 @@ background:#333;
 
 #sedbtn3{
   display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
   background:red;
-  width:15%;
+  width:23%;
   padding-top:5px;
   padding-bottom:5px;
   color:white;
   border-radius:4px;
-  border: red 2px solid;
+  border: #888888 1px solid;
   margin-top:20px;
   margin-bottom:20px;
   margin-right: 75px;
+  margin-left: 75px;
   float: left;
   font-weight:800;
   font-size:0.8em;
-  text-align: center;
+  box-shadow: 3px 3px 15px #888888;
+  justify-content: center;
 }
 
 #sedbtn3:hover{ 
@@ -330,3 +332,7 @@ background:#333;
     border: #333 2px solid;
 }
 
+.subeddel{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
