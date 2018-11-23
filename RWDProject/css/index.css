@@ -2,6 +2,15 @@ html{
     font-family: verdana;
 }
 
+body{
+    background-color: #F5F5F5;
+}
+
+#whole {
+    display: flex;
+    flex-direction: column;
+}
+
 .navbar {
 	display: flex;
     width: 100%;
@@ -187,6 +196,7 @@ li.videos {
   border-radius:6px;
   margin: 0 auto 0 auto;
   padding:0px 0px 70px 0px;
+  background-color: #F5F5F5;
 }
 
 .email{
@@ -349,6 +359,9 @@ background:#333;
 
 #featuredcontainer {
     margin-left: 50px;
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
 }
 
 #featuredcontainer h2 {
@@ -376,4 +389,10 @@ background:#333;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.streamcontainer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
